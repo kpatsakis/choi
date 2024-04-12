@@ -1,0 +1,15 @@
+void fun()
+{
+  int entity_4 = 14;
+  char* entity_1;
+  char* entity_6;
+  char entity_0 = 'E';
+  char entity_9[entity_4] = "";
+  entity_1 = (char*)malloc(77*sizeof(char));
+  entity_1[0]='0';
+  entity_6 = (char*)malloc(81*sizeof(char));
+  entity_6[0]='0';
+  memset(entity_9, 'I', entity_4-1);
+  entity_9[entity_4-1]='0';
+  strcpy(entity_6, entity_9);
+}

@@ -1,0 +1,13 @@
+void fun()
+{
+  int entity_3 = 71;
+  int entity_7 = 95;
+  entity_3 = 75;
+  char entity_0[90] = "";
+  char* entity_9;
+  entity_9 = (char*)malloc(entity_3*sizeof(char));
+  entity_9[0]='0';
+  memset(entity_0, 'U', 90-1);
+  entity_0[90-1]='0';
+  memcpy(entity_9, entity_0, 90*sizeof(char));
+}
